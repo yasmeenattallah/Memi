@@ -1,7 +1,8 @@
 import {Home , AboutUs , Cart , Checkout, Contact, Login, NotFound, Order, ProductDetails, Product, Profile, Register , 
-
  } from './pages';
-function App() {
+ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+const App = ()=>  {
   return (
     <div className="App">
      <Home/> 
@@ -19,5 +20,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
