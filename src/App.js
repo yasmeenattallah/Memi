@@ -29,7 +29,7 @@ const App = () => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/product" element={<Product />} />
         <Route path="/register" element={<Register />} />
-        <Route exact path="*" element={<NotFound />} />
+        <Route  path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
